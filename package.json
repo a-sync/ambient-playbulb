@@ -1,6 +1,6 @@
 {
   "name": "ambient-playbulb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use the MIPOW Playbulb (BTL201-BK) as ambient backlight for your screen.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "noble-uwp": "a-sync/noble-uwp",
-    "screen-avg-color": "a-sync/screen-avg-color"
+    "node-cleanup": "^2.1.2",
+    "screen-avg-color": "^1.0.1"
   },
   "devDependencies": {}
 }
